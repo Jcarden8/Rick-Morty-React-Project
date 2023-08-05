@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Footer from './components/Footer/Footer';
-import Header from './components/Top/Header';
-import Homepage from './components/Pages/Homepage/Homepage';
-import Episodes from './components/Pages/Episodes/Episodes';
-import About from './components/Pages/About/About';
+import Footer from 'E:\Github-repos\Rick-Morty-React-Project\src\components\Footer\Footer.css';
+import Header from 'E:\Github-repos\Rick-Morty-React-Project\src\components\Top\Header.css';
+import Homepage from 'E:\Github-repos\Rick-Morty-React-Project\src\components\Pages\Homepage\Homepage.css';
+import Episodes from 'E:\Github-repos\Rick-Morty-React-Project\src\components\Pages\Episodes\Episodes.css';
+import About from 'E:\Github-repos\Rick-Morty-React-Project\src\components\Pages\About\About.css';
 
 
 
@@ -17,9 +17,9 @@ function App() {
     <BrowserRouter>
      <Header />
       <Routes>
-        <Route path='/' element={<Homepage />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/episodes' element={<Episodes />} />
+        <Route path='/Homepage' element={<Homepage />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Episodes' element={<Episodes />} />
       </Routes>
 
      <Footer />
