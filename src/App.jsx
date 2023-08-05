@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Footer from './components/Footer/Footer'
-import Header from 'src/components/Top'
-import Homepage from './pages/HomePage/Homepage'
+import Footer from './components/Footer/Footer';
+import Header from './components/Top/Header';
+import Homepage from './pages/HomePage/Homepage';
 import Episodes from './pages/Episodes/Episodes';
 import About from './pages/About/About';
 
